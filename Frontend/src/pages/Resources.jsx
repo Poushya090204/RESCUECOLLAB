@@ -63,7 +63,7 @@ const Resources = () => {
   );
 
   const handleDetailsClick = (resourceId) => {
-    navigate(/resource-details/${resourceId});
+    navigate(`/resource-details/${resourceId}`);
   };
 
   const handleDeleteResource = (resourceId) => {
